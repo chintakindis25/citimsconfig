@@ -10,7 +10,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL57InnoDBDialect
     hibernate:
-      ddl-auto: read-only
+      ddl-auto: update
   application:
     name: PRODUCT-SERVICE
   
